@@ -1,0 +1,83 @@
+.world {
+    background-color: blue;
+    color: chartreuse;
+}
+
+.people {
+    color: red;
+    background-color: black;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+span {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1 {
+    font-size: 25px;
+    background-color: aqua;
+    color: red;
+} */
+/* 
+h1,h2{
+    color: greenyellow;
+    background-color: black;
+    font-size: 25px;
+
+}
+
+p{
+    font-size: larger;
+    color: blueviolet;
+
+}
+
+#title{
+    background: grey;
+    color: black;
+}
+
+#footer{
+    background-color: blue;
+    color: azure;
+} */
+
+/* css rule */
+/* selector element grouping id class*/
+/* declaration block */
+/* declaration */
+/* property */
+/* value */
+/* Div- helps in group multiple elements */
+/* span- helps in group inline elements */
+/* Last row style will be applied if repeated */
+/* more priority -
+    id
+    class
+    element */
+/* Inheritence-without classes
+    Body
+    div
+    span
+    elements */
+/* Universal selector-* only applied when it is in starting of document
+    and it has least specificity */

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+div {
+    background: whitesmoke;
+    height: 150px;
+    width: 200px;
+    margin: 15px;
+}
+
+.transition:hover {
+    background: red;
+    transform: translateX(30px);
+    transition: all 1s linear;
+}
+
+.animation {
+    background: yellow;
+    opacity: 0.05;
+}
+.animation:hover {
+    background: blueviolet;
+    animation: move 3s 1 ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    25% {
+        transform: translateX(20px);
+    }
+    50% {
+        transform: translateX(100px);
+        background-color: brown;
+        opacity: 0.5;
+    }
+    75% {
+        transform: translateX(-100px);
+        background-color: blue;
+        opacity: 0.75;
+    }
+    100% {
+        /* transform: translateX(20px); */
+        background: green;
+        opacity: 1;
+    }
+}

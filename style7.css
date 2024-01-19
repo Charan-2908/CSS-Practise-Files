@@ -1,0 +1,54 @@
+div {
+    min-height: 100vh;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.big-img {
+    background: url(./images/pexels-pixabay-460666.jpg);
+    /* background: url(./images/long.jpeg); */
+    background-size: contain;
+    background-attachment: fixed;
+}
+.small-img {
+    background: linear-gradient(rgba(54,211,234,0.2),rgba(123,234,234,0.5)) ,url(./images/pexels-pixabay-460666.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.folder-img {
+    background: url(./images/smoothie.jpg) center/contain fixed repeat;
+    /* background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed; */
+}
+
+/* div {
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+} */
+
+.one {
+    background: linear-gradient(blue,green, yellow);
+}
+.two {
+    background: linear-gradient(to top, orange,black);
+}
+.three {
+    background: linear-gradient(to right, orange,black);
+}
+.four {
+    background: linear-gradient(180deg,lightgreen,grey);
+}
+.five {
+    background: linear-gradient(violet 40%,purple 40%);
+}
+.six {
+    background: linear-gradient(rgba(15,67,99,0.05),rgba(245,1,233,0.8));
+}

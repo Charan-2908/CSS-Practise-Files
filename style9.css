@@ -1,0 +1,103 @@
+/* body {
+    background-color: yellow;
+}
+.banner {
+    background: blue;
+}
+h1 {
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (min-width:576px) {
+    body {
+        background: red;
+    }
+    h1 {
+        color: black;
+        font-size: 60px;
+    }
+    .banner {
+        background-color: yellow;
+    }
+} */
+
+/* img {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+}
+
+.banner {
+    margin: 20px;
+    width: 80vw;
+    height: 70vh;
+    border: 5px solid green;
+    position: relative;
+}
+
+.one {
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.two {
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+}
+.three {
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+} */
+
+h1::after{
+    content: "Learning CSS";
+    color: red;
+    background-color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1::before {
+    content: "People ";
+    color: blue;
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+div {
+    width: 70vw;
+    margin: 100px auto;
+    /* border: 2px solid red; */
+    position: relative;
+}
+img {
+    width: 100%;
+    display: block;
+}
+
+div::before {
+    content: "";
+    border: 5px solid lightskyblue;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 40px;
+    right: 40px;
+    z-index: -2;
+}
+div::after {
+    content: "";
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 20px;
+    right: 20px;
+    z-index: -1;
+}

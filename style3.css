@@ -1,0 +1,64 @@
+/* Pixels 
+    font size
+    width
+    height
+*/
+
+h1 {
+    font-size: 60px;   
+    background: black;
+    color: white;
+    width: 450px;
+    height: px;
+}
+
+.outer {
+    height: 250px;
+    width: 250px;
+    background-color: brown;
+}
+
+/* percent -reative unit depends on the */
+.inner {
+    height: 50%;
+    width: 50%;
+    background: aqua;
+}
+
+/* em values - depends on parent
+rem values - depends on root
+default 16px
+1em-16px
+2em-32px
+1em-10px if we set on parent
+*/
+
+div {
+    font-size: 16px;
+}
+
+.relative {
+    font-size: 20px;
+}
+
+.absolute {
+    font-size: 2rem;
+}
+
+/* viewport units - vh vw */
+
+* {
+    margin: 0;
+}
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background: red;
+}
+.about {
+    height: 100vh;
+    width: 100vw;
+    background: blue;
+}
+

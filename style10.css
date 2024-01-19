@@ -1,0 +1,66 @@
+/* * {
+    color: red;
+}
+
+#heading {
+    color: green;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.heading {
+    color: blue;
+    font-family: monospace;
+}
+
+p {
+    letter-spacing: 4px;
+    font-weight: bold;
+} */
+
+div h1 {
+    color: red;
+}
+
+div > h1 {
+    color: blue;
+}
+
+p::first-line{
+    font-weight:bold ;
+}
+
+p::first-letter {
+    font-size: 200%;
+}
+
+.footer:hover {
+    color: aqua;
+    background-color: purple;
+    font-size: 1.2rem;
+}
+
+/* a:hover {
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: palevioletred;
+} */
+
+a {
+    display: block;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: blue;
+}

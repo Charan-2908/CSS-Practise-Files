@@ -1,0 +1,62 @@
+/* .block {
+    background-color: blue;
+    color: white;
+    display: inline;
+    width: 300px;
+    margin: 2rem auto;
+}
+
+.inline {
+    background-color: red;
+    color: white;
+    display: block;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+    list-style-type: lower-roman;
+}
+
+ul li a {
+    color: orangered;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: black;
+    padding: 5px;
+    display: block;
+
+}
+
+div {
+    background-color: orangered;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.none {
+    display: none;
+}
+
+.opacity-1 {
+    opacity: 1;
+}
+.opacity-5 {
+    opacity: 0.5;
+}
+.opacity-0 {
+    opacity: 0.1;
+}
+.visibility {
+    visibility: hidden;
+}
